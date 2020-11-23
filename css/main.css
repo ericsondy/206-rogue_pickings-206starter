@@ -65,13 +65,14 @@ header h1 span {
 }
 
 header nav {
-	padding:0 0 30px;
-	display: flex;
-	flex-flow: column;
+	padding: 0 0 30px;
+
 }
 
 header nav ul {
 list-style-type: none;
+text-align: center;
+padding: 0;
 }
 
 header nav ul li {
@@ -222,13 +223,13 @@ footer span {
 				padding-top: 50px;
     }
 		header nav ul {
-    display: flex;
-    justify-content: space-between;
-		list-style-type: none;
+    	display: flex;
+    	justify-content: space-between;
+			list-style-type: none;
   }
 
-	header nav ul li {
-		padding-right: 1em;
+		header nav ul li {
+			padding-left: 1em;
 	}
 
 	.section-one h4 {
